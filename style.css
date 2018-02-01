@@ -1,0 +1,160 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #192DC5;
+  color: white;
+  font-family: sans-serif;
+}
+
+.nav {
+  padding: 6vh 6vh 8vh 6vh;
+}
+
+.nav-logo-container {
+  padding-top: 1vh;
+}
+
+.nav-logo-container > p {
+  display: inline-block;
+}
+
+.nav-logo-container > p:hover {
+  cursor: pointer;
+}
+
+.ovo-small {
+  display: inline-block;
+  margin-right: 2vh;
+}
+
+.ovo-small:hover {
+  cursor: pointer;
+}
+
+.ovo-large {
+  padding-bottom: 3vh;
+  margin-top: 2vh;
+}
+
+.nav-tabs-container {
+  text-align: center;
+  padding-top: 1.5vh;
+}
+
+.nav-tabs {
+  list-style-type: none;
+  border: none;
+}
+
+.nav-tabs li {
+  display: inline-block;
+  margin: 0 5vh 0 5vh;
+  font-size: 12px;
+}
+
+.nav-tabs li:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.subscribe-button {
+  border-radius: 1000px;
+  border: solid white thin;
+  padding: 2vh 4vh 2vh 4vh;
+  font-size: 12px;
+  color: white;
+  background-color: #192DC5;
+  float: right;
+}
+
+.subscribe-button:hover {
+  color: #0F1EA5;
+  cursor: pointer;
+  background-color: white;
+  transition: background .25s;
+}
+
+.main-text-container {
+  text-align: center;
+  line-height: 200%;
+}
+
+.main-text-title {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.main-text-description {
+  margin-top: 4.5vh;
+  color: lightgrey;
+}
+
+.start-exploring-button {
+  margin-top: 4vh;
+  background-color: white;
+  color: #0F1EA5;
+  padding: 1vh 5.5vh 1vh 5.5vh;
+  border-radius: 1000px;
+  font-size: 12px;
+  border: none;
+}
+
+.start-exploring-button:hover {
+  color: white;
+  border: solid white thin;
+  background-color: #192DC5;
+  cursor: pointer;
+  transition: background .25s;
+}
+
+.presents-text {
+  font-size: 12px;
+  transform: rotate(-90deg);
+  float: left;
+  margin-top: 5vh;
+}
+
+.presents-text:hover {
+  cursor: pointer;
+  color: red;
+  transition: color .25s;
+}
+
+.scroll-line {
+  margin-top: 2vh;
+  height: 7.5vh;
+  width: 1px;
+  background-color: white;
+}
+
+.line-scroll-text {
+  margin-top: 4vh;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.social-media-container i {
+  display: block;
+  margin-top: 2vh;
+  border-radius: 50%;
+  border: solid white thin;
+  padding: 1vh;
+  margin-right: 5vh;
+  margin-bottom: 2vh;
+}
+
+.social-media-container i:hover {
+  color: blue;
+  background-color: white;
+}
